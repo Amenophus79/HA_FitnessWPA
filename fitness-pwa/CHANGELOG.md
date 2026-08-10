@@ -1,0 +1,8 @@
+# Changelog
+
+## 0.2.0
+
+- Add Home Assistant app metadata.
+- Request optional MariaDB service discovery with `mysql:want`.
+- Use cold backups for consistent SQLite persistence.
+- Reference the private project's multi-architecture container image.

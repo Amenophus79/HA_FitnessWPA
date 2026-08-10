@@ -1,0 +1,8 @@
+{
+  "name": "ha-fitness-pwa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/validate-metadata.mjs"
+  }
+}
