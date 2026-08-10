@@ -6,7 +6,6 @@ const repository = await readFile(new URL("../repository.yaml", import.meta.url)
 
 for (const required of [
   "name: Fitness PWA",
-  'version: "0.2.0"',
   "slug: fitness_pwa",
   "arch:",
   "- aarch64",
@@ -20,6 +19,7 @@ for (const required of [
   assert.match(config, new RegExp(escapeRegExp(required)), `Missing app metadata: ${required}`);
 }
 
+assert.match(config, /^version:\s*"\d+\.\d+\.\d+"$/m, "Missing semantic app version.");
 assert.match(repository, /url: https:\/\/github\.com\/Amenophus79\/HA_FitnessWPA/);
 assert.doesNotMatch(config, /SUPABASE|OPENAI_API_KEY|PASSWORD|TOKEN/);
 console.log("Home Assistant metadata is valid.");
