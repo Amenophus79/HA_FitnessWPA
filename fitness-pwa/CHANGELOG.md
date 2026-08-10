@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.2
+
+- Published the matching private Fitness PWA image.
+
+
 ## 0.2.0
 
 - Add Home Assistant app metadata.
