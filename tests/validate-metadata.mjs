@@ -15,7 +15,7 @@ for (const required of [
   "services:",
   "- mysql:want",
   "LOCAL_DATA_DIR: /data",
-  "image: ghcr.io/amenophus79/fitness-pwa"
+  "image: ghcr.io/amenophus79/ha_fitnesswpa"
 ]) {
   assert.match(config, new RegExp(escapeRegExp(required)), `Missing app metadata: ${required}`);
 }

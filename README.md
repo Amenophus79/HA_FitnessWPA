@@ -2,7 +2,7 @@
 
 This public repository contains only the Home Assistant app metadata and documentation for Fitness PWA.
 
-The application source remains private in [Amenophus79/FitnessWPA](https://github.com/Amenophus79/FitnessWPA). The app image is published separately as `ghcr.io/amenophus79/fitness-pwa` and is referenced by the Home Assistant app metadata.
+The application source remains private in [Amenophus79/FitnessWPA](https://github.com/Amenophus79/FitnessWPA). The app image is published separately as `ghcr.io/amenophus79/ha_fitnesswpa` and is referenced by the Home Assistant app metadata.
 
 ## Installation
 
