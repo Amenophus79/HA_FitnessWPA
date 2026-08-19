@@ -1,5 +1,5 @@
 name: Fitness PWA
-version: "0.2.2"
+version: "0.2.3"
 slug: fitness_pwa
 description: Offline-first training planner with SQLite and optional MariaDB replication
 url: https://github.com/Amenophus79/HA_FitnessWPA
