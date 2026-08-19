@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.4
+
+- Published the matching private Fitness PWA image.
+
+
 ## 0.2.3
 
 - Published the matching private Fitness PWA image.
